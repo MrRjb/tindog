@@ -1,0 +1,169 @@
+#main {
+  font-family: "Ubuntu";
+}
+
+.navbar-brand {
+  padding-left: 0;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.logo {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-bottom: 45px;
+  padding-left: 0;
+}
+
+.navitem {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat-Light"
+}
+
+.title-img {
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 100px;
+
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+h3 {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+#intro {
+  font-family: "Montserrat";
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-bottom: 30px;
+
+}
+
+#main-section {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.font-icon {
+  color: #ed8172;
+  margin-bottom: 1rem;
+}
+
+.font-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ed8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+#press {
+  background-color: #ed8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 50px;
+}
+
+.end-tagline {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+#footer {
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+.footer-icons {
+  height: 30px;
+  width: 30px;
+}
